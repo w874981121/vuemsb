@@ -5,13 +5,13 @@ import App from './App'
 import router from './router'
 import Vuex from 'vuex'
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   template: '<App/>',
   components: { App }
-});
+})
